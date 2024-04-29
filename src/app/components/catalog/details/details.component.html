@@ -1,0 +1,33 @@
+<div class="table-responsive">
+    <table class="table table-bordered border-dark">
+        <thead>
+            <tr>
+              <th scope="col">Image</th>
+              <th scope="col">Info</th>
+              <th scope="col">Management</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td class="align-middle"><img [src]="lBooks[id].img" width="150px" height="200px"></td>
+                <td [width]="900">
+                  <strong>Title:</strong> {{lBooks[id].title}}<br>
+                  <strong>Author:</strong> {{lBooks[id].author}} <br>
+                  <strong>Synopsis:</strong> {{lBooks[id].description}}
+                </td>
+                <td>
+                    <strong>Number of copies:</strong> {{lBooks[id].nCopies}} <br>
+                    <strong>Number of borrowed copies:</strong> {{lBooks[id].nBorrowedCopies}} <br>
+                    <button *ngIf="lBooks[id].nCopies > 0" (click)="reserveCopyCatalog(lBooks[id])" class="btn btn-secondary">Borrow a copy</button>
+                    <button *ngIf="lBooks[id].nBorrowedCopies > 0" (click)="returnCopyCatalog(lBooks[id])" class="btn btn-secondary mx-2">Return a copy</button>
+                    <p *ngIf="lBooks[id].nCopies === 0" class="text-danger">We cannot lend you a copy because they have all already been lent.</p>
+                </td>
+            </tr>
+          </tbody>   
+    </table>
+    <div class="d-flex justify-content-center align-items-center gap-2 col-2 mx-auto">
+        <button class="btn btn-dark" *ngIf="id > 0" (click)="seePreviousBook()">See previous book</button>
+        <button class="btn btn-warning" *ngIf="id < lBooks.length-1" (click)="seeNextBook()">See next book</button>
+    </div>
+    
+    

@@ -1,0 +1,29 @@
+<h1 class="fw-bold text-center mt-3 mb-3">Book Catalog</h1>
+
+<div class="container-fluid p-5">
+  <div class="row d-flex justify-content-center mb-3 w-100">
+    <input type="text" class="text-align-center col-6" [(ngModel)]="searchQuery" placeholder="Search by title or author"
+      (input)="onSearchChange()" />
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-hover table-bordered border-dark">
+      <thead>
+        <tr>
+          <th scope="col">Image</th>
+          <th scope="col">Info</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let book of lBooks; let idx=index" [routerLink]="[idx]">
+        <tr>
+          <td class="align-middle"><img [src]="book.img" width="150px" height="200px"></td>
+          <td [width]="900">
+            <strong>Title:</strong> {{book.title}}<br>
+            <strong>Author:</strong> {{book.author}} <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="addNewBookCatalog()" class="btn btn-warning">Add new book</button>
+  </div>
+</div>

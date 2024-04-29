@@ -1,0 +1,15 @@
+.custom-bg-light {
+    background-color: #f0f0f0; /* Puedes ajustar este color según tus preferencias */
+  }
+
+  /* Estilo personalizado para centrar los enlaces */
+  .navbar-nav-container {
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  /* Estilo personalizado para el subrayado activo */
+  .nav-link.active {
+    border-bottom: 2px solid #000000; /* Ajusta el color y grosor del subrayado según tus preferencias */
+    padding-bottom: 3px; /* Ajusta el margen inferior del subrayado según tus preferencias */
+  }

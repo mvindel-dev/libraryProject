@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "description": "The story of Romeo and Juliet has antecedents in Greek mythology and literature and in some medieval legends. During the 15th and 16th centuries it was the subject of multiple versions, but it was Shakespeare who infused it with a passion and drama never seen before and that have contributed to maintaining the legend in the collective memory. In Verona, two young lovers, from two enemy families, are victims of a situation of hatred and violence that they neither desire nor can remedy. On one of those summer afternoons when the heat 'inflames the blood', Romeo, newly married in secret to his beloved Juliet, kills her cousin. From there Shakespeare unleashes tragedy and precipitates events, guided by chance and fate.",
+    "nCopies": 15,
+    "nBorrowedCopies": 3,
+    "img": "assets/img/romeoAndJuliet.jpg"
+  },
+  {
+    "title": "The Tell-Tale Heart",
+    "author": "Edgar Allan Poe",
+    "description": "When Edgar discovers his girlfriend Betty with his best friend Carl, in a fit of jealousy, he kills Carl and hides the body under the room where the piano is located. When night comes, Edgar begins to hear strange sounds coming from the piano room...",
+    "nCopies": 12,
+    "nBorrowedCopies": 2,
+    "img": "assets/img/theTellTaleHeart.jpg"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "Mrs. Bennet has raised her five daughters with the sole desire of finding a husband. The arrival in the neighborhood of Charles Bingley, a rich and single young man, with some friends, awakens the interest of the Bennet sisters and the neighboring families, who will see an excellent opportunity to fulfill their purpose. Elizabeth, one of the Bennet daughters, will begin a unique relationship with Darcy, one of Bingley's friends, which will trigger this story of pride and prejudice between the two until they come to know true love.",
+    "nCopies": 18,
+    "nBorrowedCopies": 4,
+    "img": "assets/img/prideAndPrejudice.jpg"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "Set in the American South during the 1930s, To Kill a Mockingbird follows the story of Scout Finch, her brother Jem, and their father Atticus, a lawyer defending a black man wrongly accused of raping a white woman. The novel explores themes of racial injustice, moral growth, and compassion.",
+    "nCopies": 10,
+    "nBorrowedCopies": 1,
+    "img": "assets/img/toKillAMockingbird.jpg"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "In a dystopian future, the novel 1984 explores the consequences of a totalitarian society where the government, led by the Party and its leader Big Brother, exercises total control over every aspect of people's lives. The protagonist, Winston Smith, rebels against the oppressive regime.",
+    "nCopies": 20,
+    "nBorrowedCopies": 6,
+    "img": "assets/img/1984.jpg"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "Set in the summer of 1922, The Great Gatsby explores the decadence and excess of the Jazz Age. Narrated by Nick Carraway, the novel tells the story of Jay Gatsby's unrequited love for Daisy Buchanan and the tragic consequences that follow.",
+    "nCopies": 15,
+    "nBorrowedCopies": 2,
+    "img": "assets/img/theGreatGatsby.jpg"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "description": "A landmark work in magical realism, One Hundred Years of Solitude tells the multi-generational story of the Buendía family in the fictional town of Macondo. The novel explores themes of love, power, and the cyclical nature of history.",
+    "nCopies": 14,
+    "nBorrowedCopies": 3,
+    "img": "assets/img/oneHundredYearsOfSolitude.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "Narrated by Holden Caulfield, The Catcher in the Rye follows his experiences in New York City after being expelled from an elite boarding school. The novel explores themes of alienation, adolescence, and the search for authenticity.",
+    "nCopies": 17,
+    "nBorrowedCopies": 5,
+    "img": "assets/img/theCatcherInTheRye.jpg"
+  }
+]
